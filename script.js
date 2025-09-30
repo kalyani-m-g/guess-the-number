@@ -7,7 +7,7 @@ const restartBtn = document.getElementById('restartBtn');
 const message = document.getElementById('message');
 
 guessBtn.addEventListener('click', checkGuess);
-restartBtn.addEventListener('click', resetGame);
+restartBtn.addEventListener('click', resetGame); 
 
 function checkGuess() {
     let guess = parseInt(guessInput.value);
