@@ -21,7 +21,7 @@ function checkGuess() {
     } else if (guess > targetNumber) {
         msg = 'Too high! Try again.';
     } else {
-        msg = 🎉 Correct! The number was ${targetNumber}. You guessed it in ${attempts} attempts.;
+        msg = `🎉 Correct! The number was ${targetNumber}. You guessed it in ${attempts} attempts.`;
     }
 
     message.innerText = msg;
